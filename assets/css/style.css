@@ -1,4 +1,5 @@
 /* 
+Color Palette (Darkest to Lightest)
 #ff5a5a	// orange red crayola
 #ff7c7c // light coral
 #ff9e9e // salmon pink
@@ -6,14 +7,26 @@
 #ffecec	// lavender blush
 */
 
-
-
 body {
-    color: #ff5a5a;
-    font-family: Helvetica, Arial, sans-serif;
-  }
-  
-  header {
-    padding: 20px 35px;
-    background-color: #ff5a5a;
-  }
+  color: #ff5a5a;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Nav Bar Styling Start */
+header {
+  padding: 20px 35px;
+  background-color: #ff5a5a;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #ffbebe;
+  margin: 0;
+}
+
+header a {
+  color: #ffbebe;
+}
+
+/* Nav Bar Styling End */
