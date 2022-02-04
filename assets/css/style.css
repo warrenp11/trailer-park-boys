@@ -1,0 +1,19 @@
+/* 
+#ff5a5a	// orange red crayola
+#ff7c7c // light coral
+#ff9e9e // salmon pink
+#ffbebe	// spanish pink
+#ffecec	// lavender blush
+*/
+
+
+
+body {
+    color: #ff5a5a;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  header {
+    padding: 20px 35px;
+    background-color: #ff5a5a;
+  }
