@@ -1,32 +1,81 @@
 /* 
-Color Palette (Darkest to Lightest)
-#ff5a5a	// orange red crayola
-#ff7c7c // light coral
-#ff9e9e // salmon pink
-#ffbebe	// spanish pink
-#ffecec	// lavender blush
+#3a5a81
+#d31336
+#252131
+
+
 */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  color: #ff5a5a;
+  color: #d31336;
   font-family: Helvetica, Arial, sans-serif;
 }
 
 /* Nav Bar Styling Start */
 header {
   padding: 20px 35px;
-  background-color: #ff5a5a;
+  background-color: #252131;
 }
 
 header h1 {
   font-weight: bold;
   font-size: 36px;
-  color: #ffbebe;
+  color: #d31336;
   margin: 0;
+  display: inline;
 }
 
 header a {
-  color: #ffbebe;
+  text-decoration: none;
+  color: #d31336;
+}
+
+header nav {
+  float: right;
+  margin: 7px 0;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
 }
 
 /* Nav Bar Styling End */
+
+/* Footer Stlying Start*/
+
+footer {
+  background: #3a5a81;
+  width: 100%;
+  padding: 40px 35px;
+}
+
+footer h2 {
+  display: inline;
+  color: #252131;
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: #252131;
+}
+
+/* Footer Stlying End*/
